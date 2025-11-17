@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PWR_Transducer
+#
+DEF PWR_Transducer U 0 40 Y Y 1 F N
+F0 "U" 0 -300 50 H V C CNN
+F1 "PWR_Transducer" 0 300 50 H V C CNN
+F2 "" 100 -50 50 H I C CNN
+F3 "" 100 -50 50 H I C CNN
+DRAW
+S -400 250 400 -250 0 1 0 f
+X Inv+ 1 -500 150 100 R 50 50 1 1 I
+X Inv- 2 -500 -150 100 R 50 50 1 1 I
+X +5V 3 500 200 100 L 50 50 1 1 I
+X GND 4 500 100 100 L 50 50 1 1 I
+X HV_Sens 5 500 0 100 L 50 50 1 1 O
+X Low_C_Meas 6 500 -100 100 L 50 50 1 1 O
+X High_C_Meas 7 500 -200 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library

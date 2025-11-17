@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name AIL&TSAL)(type Legacy)(uri ${KIPRJMOD}/AIL&TSAL/AIL&TSAL.lib)(options "")(descr ""))
+  (lib (name CUFR-Full-Library)(type Legacy)(uri ${KIPRJMOD}/CUFR-Full-Library/CUFR-Full-Library.lib)(options "")(descr ""))
+  (lib (name EV2021_schematic-rescue)(type Legacy)(uri ${KIPRJMOD}/EV2021_schematic-rescue/EV2021_schematic-rescue.lib)(options "")(descr ""))
+  (lib (name Power_Transducer)(type Legacy)(uri ${KIPRJMOD}/Power_Transducer/Power_Transducer.lib)(options "")(descr ""))
+  (lib (name Converter_DCDC)(type Legacy)(uri ${KIPRJMOD}/Converter_DCDC/Converter_DCDC.lib)(options "")(descr ""))
+  (lib (name SDC_9-8-20)(type Legacy)(uri ${KIPRJMOD}/SDC/SDC_9-8-20.lib)(options "")(descr ""))
+)

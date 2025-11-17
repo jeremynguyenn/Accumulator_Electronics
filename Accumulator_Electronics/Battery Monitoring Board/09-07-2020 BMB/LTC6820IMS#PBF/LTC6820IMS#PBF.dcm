@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6820IMS#PBF
+D isoSPI Isolated Communications Interface, Ultralow, 2A Idle Current, 2.7V to 5.5V Power Supply, 16-Lead MSOP
+K
+F http://cds.linear.com/docs/en/datasheet/6820fa.pdf
+$ENDCMP
+#
+#End Doc Library

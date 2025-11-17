@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC6804-2
+D Multicell Battery Monitor, SSOP-48
+K
+F http://cds.linear.com/docs/en/datasheet/680412fc.pdf
+$ENDCMP
+#
+#End Doc Library

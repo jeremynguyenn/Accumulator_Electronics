@@ -1,0 +1,632 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 5550 1350 1    50   Input ~ 0
+Battery+
+Text HLabel 8450 1350 1    50   Input ~ 0
+Inverter+
+Text HLabel 3750 1400 1    50   Input ~ 0
+Inverter-
+Text HLabel 2850 6100 3    50   Input ~ 0
+ShutdownSignal
+Text HLabel 3600 6050 3    50   Input ~ 0
+12V
+$Comp
+L CUFR-Full-Library:DAR71210 U13
+U 1 1 5EEFA7D1
+P 6000 2550
+AR Path="/5E8356A3/5EC5E7BF/5EEFA7D1" Ref="U13"  Part="1" 
+AR Path="/5F13140A/5EEFA7D1" Ref="U13"  Part="1" 
+F 0 "U13" H 6000 2617 50  0000 C CNN
+F 1 "DAR71210" H 6000 2526 50  0000 C CNN
+F 2 "CUFR-Full-Footprint-Library:DAR71210" H 6000 2550 50  0001 C CNN
+F 3 "" H 6000 2550 50  0001 C CNN
+	1    6000 2550
+	1    0    0    -1  
+$EndComp
+Text Notes 7150 1650 0    50   ~ 0
+Precharge/Discharge Resistor\n
+$Comp
+L Device:R_US R13
+U 1 1 5EEF10CF
+P 7750 1950
+AR Path="/5E8356A3/5EC5E7BF/5EEF10CF" Ref="R13"  Part="1" 
+AR Path="/5E8356A3/5EA16CDA/5EEF10CF" Ref="R?"  Part="1" 
+AR Path="/5F13140A/5EEF10CF" Ref="R6"  Part="1" 
+F 0 "R6" V 7545 1950 50  0000 C CNN
+F 1 "HS100 2K F" V 7636 1950 50  0000 C CNN
+F 2 "CUFR-Full-Footprint-Library:HS100" V 7790 1940 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/EPCOS-TDK/B59107J0130A020?qs=t6r0WA2l4XjVyRNkAnPh3w%3D%3D" H 7750 1950 50  0001 C CNN
+	1    7750 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L CUFR-Full-Library:Relay_H3FA-A-DC12 K1
+U 1 1 5EF07042
+P 3700 4400
+AR Path="/5E8356A3/5EC5E7BF/5EF07042" Ref="K1"  Part="1" 
+AR Path="/5F13140A/5EF07042" Ref="K1"  Part="1" 
+F 0 "K1" H 4178 4446 50  0000 L CNN
+F 1 "Relay_H3FA-A-DC12" H 3250 4400 50  0000 L CNN
+F 2 "H3FA-A-DC12:H3FA-A" H 3000 4400 50  0001 C CNN
+F 3 "" H 3000 4400 50  0001 C CNN
+	1    3700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CUFR-Full-Library:G2RL-1-DC12. U15
+U 1 1 5EF07331
+P 4800 3700
+AR Path="/5E8356A3/5EC5E7BF/5EF07331" Ref="U15"  Part="1" 
+AR Path="/5F13140A/5EF07331" Ref="U10"  Part="1" 
+F 0 "U10" H 4800 4217 50  0000 C CNN
+F 1 "G2RL-1-DC12." H 4800 4126 50  0000 C CNN
+F 2 "G2RL-1_12DC:G2RL112DC" H 4800 4150 50  0001 C CNN
+F 3 "" H 4800 4150 50  0001 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5EF0E442
+P 4000 3450
+AR Path="/5E8356A3/5EC5E7BF/5EF0E442" Ref="R20"  Part="1" 
+AR Path="/5F13140A/5EF0E442" Ref="R3"  Part="1" 
+F 0 "R3" V 3793 3450 50  0000 C CNN
+F 1 "2k" V 3884 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 3450 50  0001 C CNN
+F 3 "~" H 4000 3450 50  0001 C CNN
+	1    4000 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D10
+U 1 1 5EF0EA3E
+P 3700 3450
+AR Path="/5E8356A3/5EC5E7BF/5EF0EA3E" Ref="D10"  Part="1" 
+AR Path="/5F13140A/5EF0EA3E" Ref="D3"  Part="1" 
+F 0 "D3" H 3693 3666 50  0000 C CNN
+F 1 "LED" H 3693 3575 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3700 3450 50  0001 C CNN
+F 3 "~" H 3700 3450 50  0001 C CNN
+	1    3700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5EF0EF93
+P 3400 3700
+AR Path="/5E8356A3/5EC5E7BF/5EF0EF93" Ref="#PWR021"  Part="1" 
+AR Path="/5F13140A/5EF0EF93" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 3400 3450 50  0001 C CNN
+F 1 "GND" H 3405 3527 50  0000 C CNN
+F 2 "" H 3400 3700 50  0001 C CNN
+F 3 "" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5EF10D15
+P 4000 3650
+AR Path="/5E8356A3/5EC5E7BF/5EF10D15" Ref="R21"  Part="1" 
+AR Path="/5F13140A/5EF10D15" Ref="R4"  Part="1" 
+F 0 "R4" V 4100 3650 50  0000 C CNN
+F 1 "2k" V 4200 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3930 3650 50  0001 C CNN
+F 3 "~" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D11
+U 1 1 5EF10D1B
+P 3700 3650
+AR Path="/5E8356A3/5EC5E7BF/5EF10D1B" Ref="D11"  Part="1" 
+AR Path="/5F13140A/5EF10D1B" Ref="D4"  Part="1" 
+F 0 "D4" H 3700 3550 50  0000 C CNN
+F 1 "LED" H 3700 3450 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3700 3650 50  0001 C CNN
+F 3 "~" H 3700 3650 50  0001 C CNN
+	1    3700 3650
+	1    0    0    -1  
+$EndComp
+Text HLabel 5550 6050 3    50   Input ~ 0
+AIR+
+Wire Wire Line
+	3250 4100 3250 3950
+Wire Wire Line
+	3250 3950 3850 3950
+Wire Wire Line
+	3850 4100 3850 3950
+Wire Wire Line
+	3550 4100 3550 4000
+Wire Wire Line
+	3550 4000 3450 4000
+Wire Wire Line
+	3450 4000 3450 4100
+$Comp
+L power:GND #PWR020
+U 1 1 5EF1D276
+P 3300 4800
+AR Path="/5E8356A3/5EC5E7BF/5EF1D276" Ref="#PWR020"  Part="1" 
+AR Path="/5F13140A/5EF1D276" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 3300 4550 50  0001 C CNN
+F 1 "GND" H 3305 4627 50  0000 C CNN
+F 2 "" H 3300 4800 50  0001 C CNN
+F 3 "" H 3300 4800 50  0001 C CNN
+	1    3300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4700 3250 4800
+Wire Wire Line
+	3250 4800 3300 4800
+Wire Wire Line
+	3350 4700 3350 4800
+Wire Wire Line
+	3350 4800 3300 4800
+Connection ~ 3300 4800
+Wire Wire Line
+	5100 3550 5550 3550
+$Comp
+L CUFR-Full-Library:G2RL-24-DC12 U16
+U 1 1 5EF0F0C4
+P 4800 4350
+AR Path="/5E8356A3/5EC5E7BF/5EF0F0C4" Ref="U16"  Part="1" 
+AR Path="/5F13140A/5EF0F0C4" Ref="U11"  Part="1" 
+F 0 "U11" H 4800 4317 50  0000 C CNN
+F 1 "G2RL-24-DC12" H 4800 4226 50  0000 C CNN
+F 2 "G2RL-24-DC12:G2RL-24" H 4800 4350 50  0001 C CNN
+F 3 "" H 4800 4350 50  0001 C CNN
+	1    4800 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4100 4300 4100
+Wire Wire Line
+	4400 5150 4400 4750
+Wire Wire Line
+	4400 4750 4500 4750
+Connection ~ 4400 4750
+Wire Wire Line
+	4400 5150 4500 5150
+Wire Wire Line
+	5100 5050 5550 5050
+$Comp
+L Device:R R22
+U 1 1 5EF10CFD
+P 5450 4650
+AR Path="/5E8356A3/5EC5E7BF/5EF10CFD" Ref="R22"  Part="1" 
+AR Path="/5F13140A/5EF10CFD" Ref="R5"  Part="1" 
+F 0 "R5" V 5243 4650 50  0000 C CNN
+F 1 "2k" V 5334 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5380 4650 50  0001 C CNN
+F 3 "~" H 5450 4650 50  0001 C CNN
+	1    5450 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D17
+U 1 1 5EF10D03
+P 5750 4650
+AR Path="/5E8356A3/5EC5E7BF/5EF10D03" Ref="D17"  Part="1" 
+AR Path="/5F13140A/5EF10D03" Ref="D7"  Part="1" 
+F 0 "D7" H 5743 4866 50  0000 C CNN
+F 1 "LED" H 5743 4775 50  0000 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5750 4650 50  0001 C CNN
+F 3 "~" H 5750 4650 50  0001 C CNN
+	1    5750 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 4650 5300 4650
+$Comp
+L power:GND #PWR032
+U 1 1 5EF17D19
+P 6000 4700
+AR Path="/5E8356A3/5EC5E7BF/5EF17D19" Ref="#PWR032"  Part="1" 
+AR Path="/5F13140A/5EF17D19" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 6000 4450 50  0001 C CNN
+F 1 "GND" H 6005 4527 50  0000 C CNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4650 6000 4650
+Wire Wire Line
+	6000 4650 6000 4700
+Wire Wire Line
+	5100 4850 5250 4850
+$Comp
+L power:GND #PWR030
+U 1 1 5EF1A726
+P 5300 3950
+AR Path="/5E8356A3/5EC5E7BF/5EF1A726" Ref="#PWR030"  Part="1" 
+AR Path="/5F13140A/5EF1A726" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 5300 3700 50  0001 C CNN
+F 1 "GND" H 5305 3777 50  0000 C CNN
+F 2 "" H 5300 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5EF1DD0B
+P 6450 3250
+AR Path="/5E8356A3/5EC5E7BF/5EF1DD0B" Ref="#PWR033"  Part="1" 
+AR Path="/5F13140A/5EF1DD0B" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 6450 3000 50  0001 C CNN
+F 1 "GND" H 6455 3077 50  0000 C CNN
+F 2 "" H 6450 3250 50  0001 C CNN
+F 3 "" H 6450 3250 50  0001 C CNN
+	1    6450 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3150 6450 3250
+Wire Wire Line
+	6300 3150 6450 3150
+$Comp
+L power:GND #PWR031
+U 1 1 5EF1FAAE
+P 5250 2450
+AR Path="/5E8356A3/5EC5E7BF/5EF1FAAE" Ref="#PWR031"  Part="1" 
+AR Path="/5F13140A/5EF1FAAE" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 5250 2200 50  0001 C CNN
+F 1 "GND" H 5255 2277 50  0000 C CNN
+F 2 "" H 5250 2450 50  0001 C CNN
+F 3 "" H 5250 2450 50  0001 C CNN
+	1    5250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2350 5250 2450
+Wire Wire Line
+	5150 2350 5250 2350
+Wire Wire Line
+	5600 3150 5600 2850
+Wire Wire Line
+	4300 2850 4300 2350
+Wire Wire Line
+	4300 2350 4550 2350
+Wire Wire Line
+	3750 1400 3750 1950
+Wire Wire Line
+	5700 2750 5550 2750
+Wire Wire Line
+	3400 3450 3400 3650
+Wire Wire Line
+	3550 3450 3400 3450
+Wire Wire Line
+	3550 3650 3400 3650
+Wire Wire Line
+	5550 6050 5550 5050
+Wire Wire Line
+	5550 1350 5550 2750
+Wire Wire Line
+	8450 1350 8450 1950
+Wire Wire Line
+	7900 1950 8450 1950
+Wire Wire Line
+	5600 3150 5700 3150
+Text HLabel 7700 3500 3    50   Input ~ 0
+GND
+Wire Wire Line
+	3400 3700 3400 3650
+Connection ~ 3400 3650
+Wire Wire Line
+	3250 3950 2850 3950
+Connection ~ 2850 3950
+Wire Wire Line
+	2850 3950 2850 6100
+Connection ~ 3250 3950
+Wire Wire Line
+	4500 3950 3850 3950
+Connection ~ 3850 3950
+Wire Wire Line
+	4550 1950 3750 1950
+Wire Wire Line
+	4300 2850 5600 2850
+Wire Wire Line
+	5550 3550 5550 4300
+Wire Wire Line
+	4300 2350 2850 2350
+Connection ~ 4300 2350
+Wire Wire Line
+	2850 2350 2850 3950
+$Comp
+L power:GND #PWR09
+U 1 1 5EFEE2AE
+P 8100 3300
+AR Path="/5E8356A3/5EC5E7BF/5EFEE2AE" Ref="#PWR09"  Part="1" 
+AR Path="/5F13140A/5EFEE2AE" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 8100 3050 50  0001 C CNN
+F 1 "GND" H 8105 3127 50  0000 C CNN
+F 2 "" H 8100 3300 50  0001 C CNN
+F 3 "" H 8100 3300 50  0001 C CNN
+	1    8100 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 3500 7700 3300
+Text Notes 7350 7500 0    50   ~ 0
+Precharge/Discharge Circuit\n
+Text Notes 8400 7650 0    50   ~ 0
+Last edited 7/24/2020\n
+Text Notes 7000 7100 0    50   ~ 0
+Design by Matthew Jahnes Spring 2020\nEdited by Bert Steyaert and Sabin Zarrandikoetxea
+$Comp
+L CUFR-Full-Library:DBR71210 U12
+U 1 1 5EEF9A79
+P 4850 1950
+AR Path="/5E8356A3/5EC5E7BF/5EEF9A79" Ref="U12"  Part="1" 
+AR Path="/5F13140A/5EEF9A79" Ref="U12"  Part="1" 
+F 0 "U12" H 4850 2217 50  0000 C CNN
+F 1 "DBR71210" H 4850 2126 50  0000 C CNN
+F 2 "CUFR-Full-Footprint-Library:DBR71210" H 4850 2200 50  0001 C CNN
+F 3 "" H 4850 2200 50  0001 C CNN
+	1    4850 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1950 7150 1950
+Text Notes 2950 3700 0    50   ~ 0
+Discharge
+Text Notes 2950 3500 0    50   ~ 0
+Precharge\n
+$Comp
+L power:GND #PWR022
+U 1 1 5EF07FDD
+P 4500 5650
+AR Path="/5E8356A3/5EC5E7BF/5EF07FDD" Ref="#PWR022"  Part="1" 
+AR Path="/5F13140A/5EF07FDD" Ref="#PWR020"  Part="1" 
+F 0 "#PWR020" H 4500 5400 50  0001 C CNN
+F 1 "GND" H 4505 5477 50  0000 C CNN
+F 2 "" H 4500 5650 50  0001 C CNN
+F 3 "" H 4500 5650 50  0001 C CNN
+	1    4500 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5650 4500 5550
+Wire Wire Line
+	5100 5900 5100 5550
+Text Notes 6050 4700 0    50   ~ 0
+TS Ready\n\n
+Wire Wire Line
+	6300 2750 7150 2750
+Wire Wire Line
+	7150 2750 7150 1950
+Connection ~ 7150 1950
+Wire Wire Line
+	7150 1950 7600 1950
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5F29E655
+P 3850 6600
+F 0 "Q1" H 4054 6646 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4054 6555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4050 6700 50  0001 C CNN
+F 3 "~" H 3850 6600 50  0001 C CNN
+	1    3850 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5F2A2CC5
+P 3850 5200
+F 0 "Q2" H 4054 5246 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4054 5155 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4050 5300 50  0001 C CNN
+F 3 "~" H 3850 5200 50  0001 C CNN
+	1    3850 5200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4100 4300 5200
+Text HLabel 3750 6800 3    50   Input ~ 0
+12V
+Wire Wire Line
+	3600 4750 3600 6050
+Wire Wire Line
+	3600 4750 4400 4750
+Text HLabel 3750 5000 1    50   Input ~ 0
+12V
+Wire Wire Line
+	3750 5400 3750 5550
+$Comp
+L Device:D D6
+U 1 1 5F16E36E
+P 3750 6250
+F 0 "D6" V 3704 6329 50  0000 L CNN
+F 1 "D" V 3795 6329 50  0000 L CNN
+F 2 "Diode_SMD:D_SMC" H 3750 6250 50  0001 C CNN
+F 3 "~" H 3750 6250 50  0001 C CNN
+	1    3750 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4850 5250 4950
+Wire Wire Line
+	5250 4950 6500 4950
+Wire Wire Line
+	6500 4950 6500 4300
+Wire Wire Line
+	6500 4300 5550 4300
+Text HLabel 5200 4650 1    50   Input ~ 0
+TS_Ready
+Wire Wire Line
+	5100 3950 5300 3950
+Wire Wire Line
+	4500 3450 4150 3450
+Wire Wire Line
+	4500 3650 4150 3650
+Text HLabel 4300 3450 1    50   Input ~ 0
+Precharge
+Text HLabel 4300 3650 3    50   Input ~ 0
+Discharge
+Wire Wire Line
+	7700 3300 8100 3300
+Text Notes 7200 2150 0    50   ~ 0
+This resistor uses a headsink
+Text Notes 6850 4650 0    79   ~ 0
+Precharge, Discharge and TS_Ready signals are brought to the MCU, \nso it can be aware of the car's state
+Text HLabel 4450 6600 2    50   Input ~ 0
+MCU-AIR+
+Wire Wire Line
+	4450 6600 4350 6600
+$Comp
+L Device:D D5
+U 1 1 5F158F27
+P 3750 5700
+F 0 "D5" H 3750 5484 50  0000 C CNN
+F 1 "D" H 3750 5575 50  0000 C CNN
+F 2 "Diode_SMD:D_SMC" H 3750 5700 50  0001 C CNN
+F 3 "~" H 3750 5700 50  0001 C CNN
+	1    3750 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 5850 3750 5900
+Wire Wire Line
+	3750 5900 3750 6100
+Connection ~ 3750 5900
+$Comp
+L pspice:C C?
+U 1 1 5F4FFDE4
+P 4350 6850
+AR Path="/5F4FFDE4" Ref="C?"  Part="1" 
+AR Path="/5F13140A/5F4FFDE4" Ref="C16"  Part="1" 
+F 0 "C16" H 4528 6896 50  0000 L CNN
+F 1 "100n" H 4528 6805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4350 6850 50  0001 C CNN
+F 3 "~" H 4350 6850 50  0001 C CNN
+	1    4350 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4FFDEA
+P 4350 7100
+AR Path="/5E8356A3/5F4FFDEA" Ref="#PWR?"  Part="1" 
+AR Path="/5F4FFDEA" Ref="#PWR?"  Part="1" 
+AR Path="/5F13140A/5F4FFDEA" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 4350 6850 50  0001 C CNN
+F 1 "GND" V 4450 7150 50  0000 R CNN
+F 2 "" H 4350 7100 50  0001 C CNN
+F 3 "" H 4350 7100 50  0001 C CNN
+	1    4350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5F5018DA
+P 4300 5450
+AR Path="/5F5018DA" Ref="C?"  Part="1" 
+AR Path="/5F13140A/5F5018DA" Ref="C15"  Part="1" 
+F 0 "C15" H 4400 5450 50  0000 L CNN
+F 1 "100n" H 4100 5450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4300 5450 50  0001 C CNN
+F 3 "~" H 4300 5450 50  0001 C CNN
+	1    4300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5018E0
+P 4300 5700
+AR Path="/5E8356A3/5F5018E0" Ref="#PWR?"  Part="1" 
+AR Path="/5F5018E0" Ref="#PWR?"  Part="1" 
+AR Path="/5F13140A/5F5018E0" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 4300 5450 50  0001 C CNN
+F 1 "GND" V 4400 5750 50  0000 R CNN
+F 2 "" H 4300 5700 50  0001 C CNN
+F 3 "" H 4300 5700 50  0001 C CNN
+	1    4300 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 6600
+Wire Wire Line
+	4050 5200 4300 5200
+Connection ~ 4300 5200
+Wire Wire Line
+	4050 6600 4350 6600
+Wire Wire Line
+	3750 5900 5100 5900
+$Comp
+L Device:R R?
+U 1 1 5F4689FD
+P 4050 5550
+AR Path="/5E8356A3/5EC5E7BF/5F4689FD" Ref="R?"  Part="1" 
+AR Path="/5F13140A/5F4689FD" Ref="R35"  Part="1" 
+F 0 "R35" V 4150 5550 50  0000 C CNN
+F 1 "10k" V 3934 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3980 5550 50  0001 C CNN
+F 3 "~" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F46A107
+P 4050 5700
+AR Path="/5E8356A3/5F46A107" Ref="#PWR?"  Part="1" 
+AR Path="/5F46A107" Ref="#PWR?"  Part="1" 
+AR Path="/5F13140A/5F46A107" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 4050 5450 50  0001 C CNN
+F 1 "GND" V 4150 5750 50  0000 R CNN
+F 2 "" H 4050 5700 50  0001 C CNN
+F 3 "" H 4050 5700 50  0001 C CNN
+	1    4050 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5400 4050 5200
+Connection ~ 4050 5200
+$Comp
+L Device:R R?
+U 1 1 5F46BDED
+P 4050 6850
+AR Path="/5E8356A3/5EC5E7BF/5F46BDED" Ref="R?"  Part="1" 
+AR Path="/5F13140A/5F46BDED" Ref="R36"  Part="1" 
+F 0 "R36" V 4150 6850 50  0000 C CNN
+F 1 "10k" V 3934 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3980 6850 50  0001 C CNN
+F 3 "~" H 4050 6850 50  0001 C CNN
+	1    4050 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F46D127
+P 4050 7000
+AR Path="/5E8356A3/5F46D127" Ref="#PWR?"  Part="1" 
+AR Path="/5F46D127" Ref="#PWR?"  Part="1" 
+AR Path="/5F13140A/5F46D127" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 4050 6750 50  0001 C CNN
+F 1 "GND" V 4150 7050 50  0000 R CNN
+F 2 "" H 4050 7000 50  0001 C CNN
+F 3 "" H 4050 7000 50  0001 C CNN
+	1    4050 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6700 4050 6600
+Connection ~ 4050 6600
+$EndSCHEMATC

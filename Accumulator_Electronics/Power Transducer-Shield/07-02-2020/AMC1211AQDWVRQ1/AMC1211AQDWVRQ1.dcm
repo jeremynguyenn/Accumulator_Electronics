@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AMC1211AQDWVRQ1
+D Automotive High-Impedance, 2V Input, Basic Isolated Amplifier for Voltage Sensing
+K
+F http://www.ti.com/lit/gpn/amc1211-q1
+$ENDCMP
+#
+#End Doc Library

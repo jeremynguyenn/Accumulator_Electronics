@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name Slave-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/Slave Board-rescue.lib")(options "")(descr ""))
+  (lib (name 44764-0802)(type Legacy)(uri ${KIPRJMOD}/44764-0802/44764-0802.lib)(options "")(descr ""))
+  (lib (name arduino_shieldsNCL)(type Legacy)(uri ${KIPRJMOD}/Arduino_Shield_Modules_for_KiCad_V3/arduino_shieldsNCL.lib)(options "")(descr ""))
+  (lib (name LTC6820IMS#PBF)(type Legacy)(uri ${KIPRJMOD}/LTC6820IMS#PBF/LTC6820IMS#PBF.lib)(options "")(descr ""))
+  (lib (name LTC6804-2)(type Legacy)(uri ${KIPRJMOD}/LTC6804-2/LTC6804-2.lib)(options "")(descr ""))
+  (lib (name arduino_micro_shield)(type Legacy)(uri ${KIPRJMOD}/arduino_micro_shield-master/arduino_micro_shield.lib)(options "")(descr ""))
+)

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name C2000BoosterPack_Shield)(type Legacy)(uri ${KIPRJMOD}/C2000BoosterPack_Shield/C2000BoosterPack_Shield.lib)(options "")(descr ""))
+)

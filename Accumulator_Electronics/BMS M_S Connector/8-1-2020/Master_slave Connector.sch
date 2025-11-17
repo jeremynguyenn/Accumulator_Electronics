@@ -1,0 +1,421 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5EE3B772
+P 5250 1700
+F 0 "J1" H 5168 1175 50  0000 C CNN
+F 1 "Conn_01x06" H 5168 1266 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 5250 1700 50  0001 C CNN
+F 3 "~" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EE40A1F
+P 5450 1900
+F 0 "#PWR0101" H 5450 1650 50  0001 C CNN
+F 1 "GND" H 5455 1727 50  0000 C CNN
+F 2 "" H 5450 1900 50  0001 C CNN
+F 3 "" H 5450 1900 50  0001 C CNN
+	1    5450 1900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5450 1600 2    50   Input ~ 0
+CANH
+Text GLabel 5450 1400 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	5450 1800 5450 1900
+Connection ~ 5450 1900
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5EE435F7
+P 2350 4100
+F 0 "J2" H 2350 4550 50  0000 C CNN
+F 1 "Conn_01x08" H 2350 3550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical" H 2350 4100 50  0001 C CNN
+F 3 "~" H 2350 4100 50  0001 C CNN
+	1    2350 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EE435FD
+P 2550 4400
+F 0 "#PWR0103" H 2550 4150 50  0001 C CNN
+F 1 "GND" H 2555 4227 50  0000 C CNN
+F 2 "" H 2550 4400 50  0001 C CNN
+F 3 "" H 2550 4400 50  0001 C CNN
+	1    2550 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0104
+U 1 1 5EE43603
+P 2550 4300
+F 0 "#PWR0104" H 2550 4150 50  0001 C CNN
+F 1 "+12V" V 2565 4428 50  0000 L CNN
+F 2 "" H 2550 4300 50  0001 C CNN
+F 3 "" H 2550 4300 50  0001 C CNN
+	1    2550 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 2550 4200 2    50   Input ~ 0
+CANH
+Text GLabel 2550 4100 2    50   Input ~ 0
+CANL
+Text GLabel 6350 1650 0    50   Input ~ 0
+Sens
+Text GLabel 6350 1750 0    50   Input ~ 0
+PWM
+Text GLabel 6350 1550 0    50   Input ~ 0
+DCDC+
+$Comp
+L power:GND #PWR0120
+U 1 1 5EE66DA5
+P 6350 1450
+F 0 "#PWR0120" H 6350 1200 50  0001 C CNN
+F 1 "GND" H 6355 1277 50  0000 C CNN
+F 2 "" H 6350 1450 50  0001 C CNN
+F 3 "" H 6350 1450 50  0001 C CNN
+	1    6350 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5EE660C6
+P 6550 1550
+F 0 "J8" H 6630 1542 50  0000 L CNN
+F 1 "Conn_01x04" H 6630 1451 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 6550 1550 50  0001 C CNN
+F 3 "~" H 6550 1550 50  0001 C CNN
+	1    6550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F27D45F
+P 2850 4000
+F 0 "#PWR0105" H 2850 3750 50  0001 C CNN
+F 1 "GND" H 2855 3827 50  0000 C CNN
+F 2 "" H 2850 4000 50  0001 C CNN
+F 3 "" H 2850 4000 50  0001 C CNN
+	1    2850 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2550 3900 2    50   Input ~ 0
+DCDC+
+Text GLabel 2550 3800 2    50   Input ~ 0
+Sens
+Text GLabel 2550 3700 2    50   Input ~ 0
+PWM
+Wire Wire Line
+	2850 4000 2550 4000
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 5F290B58
+P 3650 4100
+F 0 "J3" H 3650 4550 50  0000 C CNN
+F 1 "Conn_01x08" H 3650 3550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical" H 3650 4100 50  0001 C CNN
+F 3 "~" H 3650 4100 50  0001 C CNN
+	1    3650 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5F290B5E
+P 3850 4400
+F 0 "#PWR0106" H 3850 4150 50  0001 C CNN
+F 1 "GND" H 3855 4227 50  0000 C CNN
+F 2 "" H 3850 4400 50  0001 C CNN
+F 3 "" H 3850 4400 50  0001 C CNN
+	1    3850 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0107
+U 1 1 5F290B64
+P 3850 4300
+F 0 "#PWR0107" H 3850 4150 50  0001 C CNN
+F 1 "+12V" V 3865 4428 50  0000 L CNN
+F 2 "" H 3850 4300 50  0001 C CNN
+F 3 "" H 3850 4300 50  0001 C CNN
+	1    3850 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 3850 4200 2    50   Input ~ 0
+CANH
+Text GLabel 3850 4100 2    50   Input ~ 0
+CANL
+$Comp
+L power:GND #PWR0108
+U 1 1 5F290B6C
+P 4150 4000
+F 0 "#PWR0108" H 4150 3750 50  0001 C CNN
+F 1 "GND" H 4155 3827 50  0000 C CNN
+F 2 "" H 4150 4000 50  0001 C CNN
+F 3 "" H 4150 4000 50  0001 C CNN
+	1    4150 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3850 3900 2    50   Input ~ 0
+DCDC+
+Text GLabel 3850 3800 2    50   Input ~ 0
+Sens
+Text GLabel 3850 3700 2    50   Input ~ 0
+PWM
+Wire Wire Line
+	4150 4000 3850 4000
+$Comp
+L Connector_Generic:Conn_01x08 J4
+U 1 1 5F2A019A
+P 5000 4100
+F 0 "J4" H 5000 4550 50  0000 C CNN
+F 1 "Conn_01x08" H 5000 3550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical" H 5000 4100 50  0001 C CNN
+F 3 "~" H 5000 4100 50  0001 C CNN
+	1    5000 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F2A01A0
+P 5200 4400
+F 0 "#PWR0109" H 5200 4150 50  0001 C CNN
+F 1 "GND" H 5205 4227 50  0000 C CNN
+F 2 "" H 5200 4400 50  0001 C CNN
+F 3 "" H 5200 4400 50  0001 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0110
+U 1 1 5F2A01A6
+P 5200 4300
+F 0 "#PWR0110" H 5200 4150 50  0001 C CNN
+F 1 "+12V" V 5215 4428 50  0000 L CNN
+F 2 "" H 5200 4300 50  0001 C CNN
+F 3 "" H 5200 4300 50  0001 C CNN
+	1    5200 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 5200 4200 2    50   Input ~ 0
+CANH
+Text GLabel 5200 4100 2    50   Input ~ 0
+CANL
+$Comp
+L power:GND #PWR0111
+U 1 1 5F2A01AE
+P 5500 4000
+F 0 "#PWR0111" H 5500 3750 50  0001 C CNN
+F 1 "GND" H 5505 3827 50  0000 C CNN
+F 2 "" H 5500 4000 50  0001 C CNN
+F 3 "" H 5500 4000 50  0001 C CNN
+	1    5500 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5200 3900 2    50   Input ~ 0
+DCDC+
+Text GLabel 5200 3800 2    50   Input ~ 0
+Sens
+Text GLabel 5200 3700 2    50   Input ~ 0
+PWM
+Wire Wire Line
+	5500 4000 5200 4000
+$Comp
+L Connector_Generic:Conn_01x08 J5
+U 1 1 5F2A01B8
+P 6300 4100
+F 0 "J5" H 6300 4550 50  0000 C CNN
+F 1 "Conn_01x08" H 6300 3550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical" H 6300 4100 50  0001 C CNN
+F 3 "~" H 6300 4100 50  0001 C CNN
+	1    6300 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F2A01BE
+P 6500 4400
+F 0 "#PWR0112" H 6500 4150 50  0001 C CNN
+F 1 "GND" H 6505 4227 50  0000 C CNN
+F 2 "" H 6500 4400 50  0001 C CNN
+F 3 "" H 6500 4400 50  0001 C CNN
+	1    6500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0113
+U 1 1 5F2A01C4
+P 6500 4300
+F 0 "#PWR0113" H 6500 4150 50  0001 C CNN
+F 1 "+12V" V 6515 4428 50  0000 L CNN
+F 2 "" H 6500 4300 50  0001 C CNN
+F 3 "" H 6500 4300 50  0001 C CNN
+	1    6500 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 6500 4200 2    50   Input ~ 0
+CANH
+Text GLabel 6500 4100 2    50   Input ~ 0
+CANL
+$Comp
+L power:GND #PWR0114
+U 1 1 5F2A01CC
+P 6800 4000
+F 0 "#PWR0114" H 6800 3750 50  0001 C CNN
+F 1 "GND" H 6805 3827 50  0000 C CNN
+F 2 "" H 6800 4000 50  0001 C CNN
+F 3 "" H 6800 4000 50  0001 C CNN
+	1    6800 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6500 3900 2    50   Input ~ 0
+DCDC+
+Text GLabel 6500 3800 2    50   Input ~ 0
+Sens
+Text GLabel 6500 3700 2    50   Input ~ 0
+PWM
+Wire Wire Line
+	6800 4000 6500 4000
+$Comp
+L Connector_Generic:Conn_01x08 J6
+U 1 1 5F2AB874
+P 7600 4100
+F 0 "J6" H 7600 4550 50  0000 C CNN
+F 1 "Conn_01x08" H 7600 3550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical" H 7600 4100 50  0001 C CNN
+F 3 "~" H 7600 4100 50  0001 C CNN
+	1    7600 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5F2AB87A
+P 7800 4400
+F 0 "#PWR0115" H 7800 4150 50  0001 C CNN
+F 1 "GND" H 7805 4227 50  0000 C CNN
+F 2 "" H 7800 4400 50  0001 C CNN
+F 3 "" H 7800 4400 50  0001 C CNN
+	1    7800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0116
+U 1 1 5F2AB880
+P 7800 4300
+F 0 "#PWR0116" H 7800 4150 50  0001 C CNN
+F 1 "+12V" V 7815 4428 50  0000 L CNN
+F 2 "" H 7800 4300 50  0001 C CNN
+F 3 "" H 7800 4300 50  0001 C CNN
+	1    7800 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 7800 4200 2    50   Input ~ 0
+CANH
+Text GLabel 7800 4100 2    50   Input ~ 0
+CANL
+$Comp
+L power:GND #PWR0117
+U 1 1 5F2AB888
+P 8100 4000
+F 0 "#PWR0117" H 8100 3750 50  0001 C CNN
+F 1 "GND" H 8105 3827 50  0000 C CNN
+F 2 "" H 8100 4000 50  0001 C CNN
+F 3 "" H 8100 4000 50  0001 C CNN
+	1    8100 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7800 3900 2    50   Input ~ 0
+DCDC+
+Text GLabel 7800 3800 2    50   Input ~ 0
+Sens
+Text GLabel 7800 3700 2    50   Input ~ 0
+PWM
+Wire Wire Line
+	8100 4000 7800 4000
+$Comp
+L Connector_Generic:Conn_01x08 J7
+U 1 1 5F2AB892
+P 8900 4100
+F 0 "J7" H 8900 4550 50  0000 C CNN
+F 1 "Conn_01x08" H 8900 3550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0812_2x04_P3.00mm_Vertical" H 8900 4100 50  0001 C CNN
+F 3 "~" H 8900 4100 50  0001 C CNN
+	1    8900 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5F2AB898
+P 9100 4400
+F 0 "#PWR0118" H 9100 4150 50  0001 C CNN
+F 1 "GND" H 9105 4227 50  0000 C CNN
+F 2 "" H 9100 4400 50  0001 C CNN
+F 3 "" H 9100 4400 50  0001 C CNN
+	1    9100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0119
+U 1 1 5F2AB89E
+P 9100 4300
+F 0 "#PWR0119" H 9100 4150 50  0001 C CNN
+F 1 "+12V" V 9115 4428 50  0000 L CNN
+F 2 "" H 9100 4300 50  0001 C CNN
+F 3 "" H 9100 4300 50  0001 C CNN
+	1    9100 4300
+	0    1    1    0   
+$EndComp
+Text GLabel 9100 4200 2    50   Input ~ 0
+CANH
+Text GLabel 9100 4100 2    50   Input ~ 0
+CANL
+$Comp
+L power:GND #PWR0121
+U 1 1 5F2AB8A6
+P 9400 4000
+F 0 "#PWR0121" H 9400 3750 50  0001 C CNN
+F 1 "GND" H 9405 3827 50  0000 C CNN
+F 2 "" H 9400 4000 50  0001 C CNN
+F 3 "" H 9400 4000 50  0001 C CNN
+	1    9400 4000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9100 3900 2    50   Input ~ 0
+DCDC+
+Text GLabel 9100 3800 2    50   Input ~ 0
+Sens
+Text GLabel 9100 3700 2    50   Input ~ 0
+PWM
+Wire Wire Line
+	9400 4000 9100 4000
+$Comp
+L power:+12V #PWR0122
+U 1 1 5F2B8C27
+P 5450 1500
+F 0 "#PWR0122" H 5450 1350 50  0001 C CNN
+F 1 "+12V" V 5450 1650 50  0000 L CNN
+F 2 "" H 5450 1500 50  0001 C CNN
+F 3 "" H 5450 1500 50  0001 C CNN
+	1    5450 1500
+	0    1    1    0   
+$EndComp
+NoConn ~ 5450 1700
+$EndSCHEMATC

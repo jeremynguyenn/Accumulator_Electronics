@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEV-EB2V100SM
+D Aluminum Electrolytic Capacitors - SMD 10UF 350V ELECT EB SMD
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1202.pdf
+$ENDCMP
+#
+#End Doc Library

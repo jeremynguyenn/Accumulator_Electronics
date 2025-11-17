@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name AIL&TSAL)(type KiCad)(uri ${KIPRJMOD}/AIL&TSAL)(options "")(descr ""))
+  (lib (name CUFR-Full-Footprint-Library)(type KiCad)(uri ${KIPRJMOD}/CUFR-Full-Footprint-Library.pretty)(options "")(descr ""))
+  (lib (name UVR2V010MED)(type Legacy)(uri ${KIPRJMOD}/UVR2V010MED/UVR2V010MED.mod)(options "")(descr ""))
+  (lib (name Power_Transducer)(type KiCad)(uri ${KIPRJMOD}/Power_Transducer)(options "")(descr ""))
+  (lib (name H3FA-A-DC12)(type Legacy)(uri ${KIPRJMOD}/H3FA-A-DC12/H3FA-A-DC12.mod)(options "")(descr ""))
+  (lib (name G2RL-24-DC12)(type Legacy)(uri ${KIPRJMOD}/G2RL-24-DC12/G2RL-24-DC12.mod)(options "")(descr ""))
+  (lib (name G2RL-1_12DC)(type Legacy)(uri ${KIPRJMOD}/G2RL-1_12DC/G2RL-1_12DC.mod)(options "")(descr ""))
+  (lib (name EEV-EB2V100SM)(type Legacy)(uri ${KIPRJMOD}/EEV-EB2V100SM/EEV-EB2V100SM.mod)(options "")(descr ""))
+  (lib (name SDC)(type KiCad)(uri ${KIPRJMOD}/SDC)(options "")(descr ""))
+)

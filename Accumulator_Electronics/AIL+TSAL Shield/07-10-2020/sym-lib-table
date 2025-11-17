@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name IRF7201TRPBF)(type Legacy)(uri ${KIPRJMOD}/IRF7201TRPBF/IRF7201TRPBF.lib)(options "")(descr ""))
+  (lib (name IRF7205TRPBF)(type Legacy)(uri ${KIPRJMOD}/IRF7205TRPBF/IRF7205TRPBF.lib)(options "")(descr ""))
+)

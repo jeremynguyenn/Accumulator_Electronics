@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA114AP
+D INA114AP, Instrumentation Amplifier, 110dB CMRR, 8-Pin PDIP
+K
+F http://www.ti.com/lit/ds/symlink/ina114.pdf
+$ENDCMP
+#
+#End Doc Library

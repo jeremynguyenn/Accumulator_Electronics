@@ -1,0 +1,25 @@
+Id;Designator;Package;Quantity;Designation;Supplier and ref
+1;J3;Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal;1;Conn_01x02;
+2;C1;C_Rect_L27.0mm_W9.0mm_P22.00mm;1;0.1uF;
+3;C2;C_Rect_L27.0mm_W9.0mm_P22.00mm;1;1uF;
+4;C3;C_Radial_D16.0mm_H31.5mm_P7.50mm;1;47uF;
+5;C4;C_0805_2012Metric;1;27uF;
+6;C5;C_0805_2012Metric;1;0.01u;
+7;C6;C_0805_2012Metric;1;10u;
+8;D1,D3;D_5W_P10.16mm_Horizontal;2;DIODE;
+9;D2;D_5W_P10.16mm_Horizontal;1;D_Zener;
+10;F1;Fuse_1206_3216Metric;1;50mA;
+11;J1,J2;Pin_D1.0mm_L10.0mm;2;Conn_01x01;
+12;Q1;SO-8_3.9x4.9mm_P1.27mm;1;Q_NMOS_SGD;IRF7201
+13;Q2;SO-8_3.9x4.9mm_P1.27mm;1;Q_PMOS_SDG;IRF7205
+14;R1;D_5W_P12.70mm_Horizontal;1;48k;
+15;R2;D_5W_P12.70mm_Horizontal;1;2k;
+16;R3,R4,R8,R9;R_1206_3216Metric;4;10k;
+17;R5;R_1206_3216Metric;1;650;
+18;R6;R_1206_3216Metric;1;2k;
+19;R7;R_1206_3216Metric;1;20k;
+20;U1;TO-252-2;1;LR8K4-G;
+21;U2;PQP1-D24-D12-D;1;CRE1S0505DC;PQP1-D24-D12-D
+22;U3;SOIC-8_3.9x4.9mm_P1.27mm;1;LM741;LM393
+23;U4;SOIC-8_3.9x4.9mm_P1.27mm;1;LM555;
+24;J4;PinHeader_1x04_P2.54mm_Vertical;1;Conn_01x04;

@@ -1,0 +1,7 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J4";"Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical";1;"Accelerator Sensor";;;
+2;"J3";"Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical";1;"Motor";;;
+3;"J2";"Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical";1;"Brake Sensor";;;
+4;"J1";"Molex_Micro-Fit_3.0_43650-0500_1x05_P3.00mm_Horizontal";1;"Inverter";;;
+5;"R1";"R_1206_3216Metric";1;"330k";;;
+6;"U1";"C2000BoosterPack_Shield";1;"C2000BoosterPack_Shield";;;
